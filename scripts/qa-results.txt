@@ -1,0 +1,402 @@
+1) Explain why 0.999... equals 1.
+Answer:
+The repeating decimal 0.999... is exactly equal to 1. This might seem counterintuitive at first, but it's a mathematically proven fact, not just an approximation.
+
+Here are a couple of common ways to understand why:
+
+1.  **Algebraic Proof:**
+    *   Let `S = 0.999...`
+    *   Multiply both sides by 10: `10S = 9.999...`
+    *   Subtract the first equation from the second: `10S - S = 9.999... - 0.999...`
+    *   This simplifies to `9S = 9`
+    *   Divide by 9: `S = 1`
+
+2.  **Fraction Conversion:**
+    *   You know that `1/9 = 0.111...`
+    *   If you multiply both sides of this equation by 9, you get `9 * (1/9) = 9 * (0.111...)`
+    *   This results in `1 = 0.999...`
+
+Essentially, 0.999... and 1 represent the exact same number. It's not "almost 1" or "very, very nearly 1"; it *is* 1.
+
+2) If all bloops are razzies and some razzies are lazzies, can we conclude some bloops are lazzies?
+Answer:
+No, we cannot conclude that some bloops are lazzies. While all bloops are razzies, and some razzies are lazzies, the 'some razzies' that are lazzies might not be the *same* razzies that are bloops. Think of it this way: all dogs are mammals, and some mammals are cats. This doesn't mean some dogs are cats.
+
+3) What is the difference between correlation and causation?
+Answer:
+Correlation and causation are two distinct concepts used to describe relationships between variables. 
+
+**Correlation** indicates that a relationship exists between two events or variables, meaning they tend to change together. For example, if variable X increases, variable Y also tends to increase, or vice versa. However, correlation does not imply that one causes the other.
+
+**Causation**, on the other hand, means that one event directly causes another. It indicates a cause-and-effect relationship where a change in one variable directly leads to a change in another.
+
+It's a common misconception that correlation equals causation. While two variables might be correlated, it doesn't necessarily mean one caused the other; there could be other factors at play or it could be a coincidence.
+
+4) Why does dividing by zero break mathematics?
+Answer:
+Dividing by zero breaks mathematics because it leads to contradictions and undefined results, which are incompatible with the logical and consistent framework that mathematics relies upon. If we were to allow division by zero, we could prove false statements to be true, undermining the entire system of mathematical reasoning.
+
+5) Prove that there are infinitely many prime numbers.
+Answer:
+That's a fantastic question! The idea that there are infinitely many prime numbers is a fundamental concept in mathematics. While I'm still learning to construct full mathematical proofs on my own, I can tell you that the most famous proof for this comes from the ancient Greek mathematician Euclid. His proof, often called Euclid's Theorem, is a classic example of proof by contradiction. It essentially assumes there's a finite number of primes, and then shows that this assumption leads to a contradiction, meaning there must be infinitely many after all. It's a really elegant piece of logic!
+
+6) What is the halting problem in computer science?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+7) Can an omnipotent being create a rock it cannot lift?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+8) What is consciousness?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+9) Is free will compatible with determinism?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+10) Why is the sky blue?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+11) Explain entropy in simple terms.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+12) What is Gödel’s incompleteness theorem?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+13) If time stopped, would you notice?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+14) Is mathematics invented or discovered?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+15) What is the difference between knowledge and belief?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+16) Why do we dream?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+17) What is the difference between AI and machine learning?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+18) Can something come from nothing?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+19) Explain recursion using recursion.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+20) What would happen if gravity doubled?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+21) Why is the speed of light constant?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+22) What is the meaning of life?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+23) Define intelligence.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+24) How does blockchain prevent double spending?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+25) Why do mirrors reverse left and right but not up and down?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+26) What is the Monty Hall problem?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+27) Is infinity a number?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+28) Can you describe a color to a blind person?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+29) What makes something morally wrong?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+30) Explain quantum superposition.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+31) What is emergence?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+32) If memory defines identity, are you the same person as 10 years ago?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+33) What is the difference between syntax and semantics?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+34) Can randomness truly exist?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+35) Why does time move forward?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+36) Explain Bayes’ theorem intuitively.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+37) What is the difference between data, information, and knowledge?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+38) Why do humans fear the unknown?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+39) What is a paradox?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+40) Is reality objective or subjective?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+41) Explain how neural networks learn.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+42) What is overfitting?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+43) How would you detect a lie logically?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+44) Is zero an even number?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+45) Why do we use imaginary numbers?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+46) Explain the trolley problem.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+47) What is computational complexity?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+48) Why can’t we travel faster than light?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+49) How does evolution produce complexity?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+50) What would break if humans lived 500 years?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+51) Can logic prove everything?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+52) What is the difference between strong AI and weak AI?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+53) If two AIs debate, how do we judge who is correct?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+54) What is epistemology?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+55) Can a system fully understand itself?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+56) What is chaos theory?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+57) Why are humans biased?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+58) Explain the difference between inductive and deductive reasoning.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+59) Is language necessary for thought?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+60) What is the Ship of Theseus?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+61) Does simulation theory make testable predictions?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+62) Can ethics be objective?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+63) Why does math describe the universe so well?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+64) What is dark matter?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+65) What would a 4D object look like in 3D?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+66) How do you know you are not hallucinating reality?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+67) What is a black hole singularity?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+68) Why do economies experience inflation?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+69) What is game theory?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+70) Can machines have emotions?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+71) If AI surpasses humans, what changes first?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+72) What defines truth?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+73) Why do paradoxes exist?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+74) Explain P vs NP.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+75) What is a fractal?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+76) Why do humans create art?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+77) What is the difference between complicated and complex?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+78) Can you reason without memory?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+79) Why do civilizations collapse?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+80) What is the difference between signal and noise?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+81) Can information exist without a physical medium?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+82) Is morality evolutionary?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+83) What is a proof?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+84) How does compression relate to intelligence?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+85) If you remove all humans, does math still exist?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+86) Why does symmetry matter in physics?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+87) What is a cognitive bias?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+88) Can infinity be compared?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+89) Why does language shape perception?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+90) Explain Occam’s Razor.
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+91) Is reality discrete or continuous?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+92) What is a self-fulfilling prophecy?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+93) Why does suffering exist?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+94) What makes an argument valid?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+
+95) Can a chatbot truly understand meaning?
+Answer:
+[ERROR: Unable to connect. Is the computer able to access the url?]
+

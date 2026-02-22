@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iLurnWitU</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Sidebar -->
+      <nav class="sidebar">
+        <div class="sidebar-header">
+          <button id="new-chat" class="new-chat-btn" type="button">
+            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            New chat
+          </button>
+        </div>
+        <div class="sidebar-history" id="chat-history">
+          <!-- History items injected here -->
+        </div>
+        <div class="sidebar-footer">
+          <a class="sidebar-link" href="/neural.html">
+            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            Neural Graph
+          </a>
+        </div>
+      </nav>
+
+      <!-- Main Chat Area -->
+      <main class="chat-container">
+        <header class="chat-header">
+          <h2 id="chat-title">New Chat</h2>
+        </header>
+
+        <div class="chat-scroll-area" id="chat">
+          <!-- Messages injected here -->
+        </div>
+
+        <div class="chat-input-area">
+          <div class="thinking-container" id="thinking-container" style="display: none;">
+            <div class="thinking-header" id="thinking-header">
+              <div class="thinking-spinner"></div>
+              <span id="thinking-status">Thinking...</span>
+              <button type="button" id="toggle-thinking-btn" class="toggle-thinking-btn">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+            </div>
+            <div class="thinking-content" id="thinking-content" style="display: none;">
+              <div id="thinking-logs" class="thinking-logs"></div>
+              <div id="thinking-meta" class="thinking-meta"></div>
+            </div>
+          </div>
+
+          <div class="chat-controls-toggle">
+            <button type="button" id="toggle-controls-btn" title="Toggle Settings">
+              <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+            </button>
+          </div>
+          
+          <div class="chat-controls collapsed" id="chat-controls">
+            <div class="field-row">
+              <input id="url" autocomplete="off" placeholder="Website URL (optional)" />
+            </div>
+            <div class="controls-row">
+              <label class="switch-label" for="mentor-enabled">
+                <input id="mentor-enabled" type="checkbox" checked />
+                Mentor AI
+              </label>
+              <label class="switch-label" for="deep-research">
+                <input id="deep-research" type="checkbox" />
+                Deep Research
+              </label>
+            </div>
+            <div class="deep-controls">
+              <div class="field-row small">
+                <label for="deep-depth">Recursive depth</label>
+                <input id="deep-depth" type="number" min="1" value="1" />
+              </div>
+              <div class="field-row small">
+                <label for="deep-limit">Recursive URL limit</label>
+                <input id="deep-limit" type="number" min="1" value="20" />
+              </div>
+            </div>
+          </div>
+
+          <form id="chat-form" class="chat-input-form">
+            <div class="input-wrapper">
+              <textarea id="message" rows="1" placeholder="Message iLurnWitU..."></textarea>
+              <button type="submit" id="send-btn" disabled>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="text-white"><path d="M7 11L12 6L17 11M12 18V7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </button>
+            </div>
+          </form>
+          <div class="chat-footer-text">
+            iLurnWitU can make mistakes. Check important info.
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- Hidden elements for app.js compatibility -->
+    <section id="thinking" class="thinking" style="display: none;"></section>
+    <section id="meta" class="meta" style="display: none;"></section>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

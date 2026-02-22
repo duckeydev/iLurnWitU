@@ -1,0 +1,5 @@
+node_modules/
+data/memory.json
+*.log
+.env
+data/

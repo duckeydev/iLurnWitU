@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neural Graph - iLurnWitU</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <aside class="sidebar">
+        <div class="sidebar-top">
+          <a class="new-chat-btn" href="/">← Back to chat</a>
+          <div class="brand">
+            <h1>Neural Graph</h1>
+            <p>Local prototype network view</p>
+          </div>
+        </div>
+      </aside>
+
+      <section class="workspace">
+        <header class="workspace-header">
+          <h2>Neural Network Graph</h2>
+        </header>
+
+        <section class="neural-panel standalone">
+          <div class="neural-header">
+            <h3>Prototype Similarity Map</h3>
+            <button id="refresh-neural-graph" type="button">Refresh Graph</button>
+          </div>
+          <div id="neural-graph-meta" class="neural-graph-meta">Loading neural graph...</div>
+          <svg id="neural-graph" class="neural-graph large" viewBox="0 0 960 560" preserveAspectRatio="xMidYMid meet"></svg>
+        </section>
+      </section>
+    </main>
+
+    <script src="/neural.js"></script>
+  </body>
+</html>
